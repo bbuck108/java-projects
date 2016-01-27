@@ -110,7 +110,7 @@ public class Test {
 		
 		for(Question t_2 : qlist){
 			totalPoints++;
-			if(t_2.markedAnswer.correct){
+			if(t_2.getMarkedAnswer().correct){
 				t_1++;
 			}
 		}

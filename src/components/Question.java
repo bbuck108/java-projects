@@ -36,12 +36,12 @@ public class Question {
 	/**
 	 * The answer that was selected by the user.
 	 */
-	Answer markedAnswer;
+	private Answer markedAnswer;
 	
 	/**
 	 * Is true if the question has been answered.
 	 */
-	boolean answered;
+	private boolean answered;
 	
 	
 	
@@ -86,6 +86,7 @@ public class Question {
 		
 		if(t_1){
 			markedAnswer = p_1;
+			setAnswered(true);
 		}
 		return t_1;
 	}
@@ -125,5 +126,35 @@ public class Question {
 	 */
 	public ArrayList<Answer> getAList(){
 		return alist;
+	}
+
+
+
+
+	/**
+	 * @return the answered
+	 */
+	public boolean isAnswered() {
+		return answered;
+	}
+
+
+
+
+	/**
+	 * @param answered the answered to set
+	 */
+	private void setAnswered(boolean answered) {
+		this.answered = answered;
+	}
+
+
+
+
+	/**
+	 * @return the markedAnswer
+	 */
+	public Answer getMarkedAnswer() {
+		return markedAnswer;
 	}
 }
