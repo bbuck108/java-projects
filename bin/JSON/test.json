@@ -1,0 +1,57 @@
+{
+   "name"  : "Java Chapter 1 & 2",
+   "questions" : [
+   		{
+   			"number" : 1,
+   			"text"   : "What do you call a constant with no associated identifier?",
+   			"answers" : [
+   				{
+   					"letter" : "a",
+   					"text"   : "Literal constant",
+   					"correct": false
+   				},
+   				{
+   					"letter" : "b",
+   					"text"   : "Unnamed constant",
+   					"correct": true
+   				},
+   				{
+   					"letter" : "c",
+   					"text"   : "Numeric constant",
+   					"correct": false
+   				},
+   				{
+   					"letter" : "d",
+   					"text"   : "Non-named constant",
+   					"correct": false
+   				}
+   			]
+   		},
+   		{
+   			"number" : 2,
+   			"text"   : "A variable is described based on all of the following EXCEPT:",
+   			"answers" : [
+   				{
+   					"letter" : "a",
+   					"text"   : "Its value cannot change",
+   					"correct": true
+   				},
+   				{
+   					"letter" : "b",
+   					"text"   : "A named memory location",
+   					"correct": false
+   				},
+   				{
+   					"letter" : "c",
+   					"text"   : "Used to store a value",
+   					"correct": false
+   				},
+   				{
+   					"letter" : "d",
+   					"text"   : "Can hold only one value at a time",
+   					"correct": false
+   				}
+   			]
+   		}
+   ]
+}
