@@ -52,6 +52,22 @@
    					"correct": false
    				}
    			]
+   		},
+   		{
+   			"number" : 3,
+   			"text"   : "This answer is true",
+   			"answers": [
+   				{
+   					"letter" : "t",
+   					"text"   : "True",
+   					correct  : true
+   				},
+   				{
+   					"letter" : "f",
+   					"text"   : "False",
+   					correct  : false
+   				}
+   			]
    		}
    ]
 }
